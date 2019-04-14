@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WebSafeFontPreview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
+</head>
+
+<body>
+    <div class="w-100 rada">
+        <div class=" Dokdo b--washed-red vh-25 flex flex-column justify-center items-center">
+            <div class="washed-red pa3-ns pa2 f1-ns f3">WEB SAFE FONT PREVIEW</div>
+            <div class="dark-gray pa3-ns pa2 f3-ns f4 ">TEST-DRIVE YOUR TEXT</div>
+        </div>
+        <div class="">
+            <form class="flex-column-m flex-ns ">
+                <div class="bt dark-gray b--washed-red bg-animate hover-bg-washed-red hover-blue tc-l f4-l w-100 pa2 pa3-m pa4-ns">FONT-SIZE : <input type="text" id="fontsize" placeholder="18"></div>
+                <div class="ba dark-gray b--washed-red bg-animate hover-bg-washed-red hover-blue tc-l f4-l w-100 pa2 pa3-m pa4-ns">FONT-FAMILY :
+                    <select name="fontfamily" id="fontfamily">
+                    <option value="Times">Times</option>
+                    <option value="Helvetica">Helvetica</option>
+                    <option value="Impact">Impact</option>
+                    <option value="Verdana">Verdana</option>
+                    <option value="Impact">Impact</option>
+                    <option value="Courier">Courier</option>
+                    <option value="monospace">monospace</option>
+                </select>
+                </div>
+                <div class="bb dark-gray b--washed-red bg-animate hover-bg-washed-red hover-blue tc-l f4-l w-100 pa2 pa3-m pa4-ns w-100">FONT-WEIGHT :
+                    <select name="fontweight" id="fontweight">
+                    <option value="normal">normal</option>
+                    <option value="bold">bold</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                    <option value="300">300</option>
+                    <option value="400">400</option>
+                    <option value="500">500</option>
+                    <option value="600">600</option>
+                    <option value="700">700</option>
+                    <option value="800">800</option>
+                    <option value="900">900</option>
+                </select>
+                </div>
+            </form>
+        </div>
+        <div class=" min-vh-25 pa3-ns pa2 flex justify-center items-center">
+            <div class="tc " id="preview">Result will be shown here.</div>
+        </div>
+        <div class=" tc min-h-100">
+            <textarea class="b--washed-red br3 w-60 w-40-ns min-vh-40" name="sampletext" id="sampletext" placeholder="Enter the text here for which you want to see preview..."></textarea>
+        </div>
+    </div>
+    <a href="https://github.com/Tanishqqjain" target="_blank" class="pa2 w-100 bg-light-gray near-black fr f7 link"><div class="fr">BY @TANISHQ JAIN</div></a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
